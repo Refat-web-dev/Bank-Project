@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/pages/myWallet/card/index.scss">
+    <link rel="stylesheet" href="/scss/client.scss">
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+        <div id="container">
+            <div id="inner"></div>
+        </div>
+
+        <div class="balance">
+            <h2>Balance:</h2>
+            <p>No card</p>
+            <button class="convert">Convert to UZS</button>
+        </div>
+
+        <div class="transactions">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Отправлено с кошелька</th>
+                        <th>Категория </th>
+                        <th>Сумма транзации</th>
+                        <th>Когда</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </center>
+
+    <div class="modal_bg close"></div>
+    <div class="modal">
+        <div class="close x_style">X</div>
+        <h1>Are you sure to sign out?</h1>
+        <button>Sign out</button>
+    </div>
+    <script type="module" src="/pages/myWallet/card/index.js"></script>
+</body>
+
+</html>

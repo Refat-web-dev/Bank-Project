@@ -1,5 +1,91 @@
 {
-    "users": [],
-    "cards": [],
-    "transactions": []
+  "users": [
+    {
+      "name": "Refat",
+      "surname": "Islyamov",
+      "email": "refabatya@gmail.com",
+      "pass": "3214rt",
+      "id": 1
+    }
+  ],
+  "cards": [
+    {
+      "id": "6fec69c9-41c0-4fdb-bf2c-e4750e467c7c",
+      "user_id": 1,
+      "name": "Visa",
+      "balance": 65577,
+      "valuta": "AED"
+    },
+    {
+      "id": "4f777879-fa1b-4ed5-9335-85bf5bf19605",
+      "user_id": 1,
+      "name": "Mastercard",
+      "balance": 267900,
+      "valuta": "AUD"
+    },
+    {
+      "id": "06b55d85-1bfc-46be-8f41-8b4cb91a4871",
+      "user_id": 1,
+      "name": "Humo",
+      "balance": 308686,
+      "valuta": "AZN"
+    },
+    {
+      "id": "3f39d99b-fc0a-4396-9389-e1f498c7e7cd",
+      "user_id": 1,
+      "name": "Refat",
+      "balance": "9999999999999999999999",
+      "valuta": "AED"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "b78ddf4d-c6d4-45fe-9b19-e1929fa5b257",
+      "user_id": 1,
+      "date": "2023-5-20-13:47",
+      "name": {
+        "id": "06b55d85-1bfc-46be-8f41-8b4cb91a4871",
+        "name": "Humo",
+        "balance": "321000"
+      },
+      "category": "car",
+      "sum": "12314"
+    },
+    {
+      "id": "7711358a-20db-4756-bafe-cc7e6920646e",
+      "user_id": 1,
+      "date": "2023-5-20-14:0",
+      "name": {
+        "id": "6fec69c9-41c0-4fdb-bf2c-e4750e467c7c",
+        "name": "Visa",
+        "balance": "100000"
+      },
+      "category": "car",
+      "sum": "30000"
+    },
+    {
+      "id": "b75e924a-9084-40f2-8e8b-01250aeb4d61",
+      "user_id": 1,
+      "date": "2023-5-20-14:1",
+      "name": {
+        "id": "4f777879-fa1b-4ed5-9335-85bf5bf19605",
+        "name": "Mastercard",
+        "balance": "300000"
+      },
+      "category": "car",
+      "sum": "32100"
+    },
+    {
+      "id": "f410036b-3a88-49fd-b3d0-ce0957892f1b",
+      "user_id": 1,
+      "date": "2023-5-20-14:4",
+      "name": {
+        "id": "6fec69c9-41c0-4fdb-bf2c-e4750e467c7c",
+        "name": "Visa",
+        "balance": 70000
+      },
+      "category": "car",
+      "sum": "4423"
+    }
+  ]
 }

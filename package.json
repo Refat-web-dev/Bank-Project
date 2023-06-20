@@ -12,6 +12,7 @@
     "axios": "^1.4.0",
     "concurrently": "^8.2.0",
     "json-server": "^0.17.3",
+    "scss": "^0.2.4",
     "swiper": "^9.3.2",
     "vite": "^4.3.9"
   },

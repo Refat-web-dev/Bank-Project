@@ -1,4 +1,4 @@
-function getRandomColors() {
+export function getRandomColors() {
     function getRGB() {
         function randomaizer() {
             return Math.floor(Math.random() * 255)
@@ -10,7 +10,7 @@ function getRandomColors() {
         return `${r},${g},${b}`
     }
     function randomaizerDeg() {
-        return Math.floor(Math.random() * 255)
+        return Math.floor(Math.random() * 360)
     }
     let d = randomaizerDeg()
     return `linear-gradient(${d}deg, rgba(${getRGB()},1), rgba(${getRGB()},1))`
@@ -29,9 +29,14 @@ export function reloadWallet(arr, place) {
         p.innerHTML = item.valuta
 
         card.style.background = getRandomColors()
+        card.style.transition = ".3s"
 
         card.append(h3, p)
         place.append(card)
+
+        card.onclick = () => {
+            location.assign("/pages/myWallet/card/?id=" + item.id)
+        }
     };
 }
 
