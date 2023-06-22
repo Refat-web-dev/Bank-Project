@@ -34,7 +34,7 @@
       "id": "3f39d99b-fc0a-4396-9389-e1f498c7e7cd",
       "user_id": 1,
       "name": "Refat",
-      "balance": "9999999999999999999999",
+      "balance": 1e+22,
       "valuta": "AED"
     },
     {
@@ -47,88 +47,16 @@
   ],
   "transactions": [
     {
-      "id": "b78ddf4d-c6d4-45fe-9b19-e1929fa5b257",
+      "id": "602e1ef8-ee9f-4df7-af7a-ecc0129da0c3",
       "user_id": 1,
-      "date": "2023-5-20-13:47",
+      "date": "2023-5-22",
       "name": {
-        "id": "06b55d85-1bfc-46be-8f41-8b4cb91a4871",
-        "name": "Humo",
-        "balance": "321000"
+        "id": "3f39d99b-fc0a-4396-9389-e1f498c7e7cd",
+        "name": "Refat",
+        "balance": "9999999999999999999999"
       },
-      "category": "car",
-      "sum": "12314"
-    },
-    {
-      "id": "7711358a-20db-4756-bafe-cc7e6920646e",
-      "user_id": 1,
-      "date": "2023-5-20-14:0",
-      "name": {
-        "id": "6fec69c9-41c0-4fdb-bf2c-e4750e467c7c",
-        "name": "Visa",
-        "balance": "100000"
-      },
-      "category": "car",
-      "sum": "30000"
-    },
-    {
-      "id": "b75e924a-9084-40f2-8e8b-01250aeb4d61",
-      "user_id": 1,
-      "date": "2023-5-20-14:1",
-      "name": {
-        "id": "4f777879-fa1b-4ed5-9335-85bf5bf19605",
-        "name": "Mastercard",
-        "balance": "300000"
-      },
-      "category": "car",
-      "sum": "32100"
-    },
-    {
-      "id": "f410036b-3a88-49fd-b3d0-ce0957892f1b",
-      "user_id": 1,
-      "date": "2023-5-20-14:4",
-      "name": {
-        "id": "6fec69c9-41c0-4fdb-bf2c-e4750e467c7c",
-        "name": "Visa",
-        "balance": 70000
-      },
-      "category": "car",
-      "sum": "4423"
-    },
-    {
-      "id": "647774fc-22a5-4c83-9f9e-2c571cab2b58",
-      "user_id": 1,
-      "date": "2023-5-22-13:31",
-      "name": {
-        "id": "06b55d85-1bfc-46be-8f41-8b4cb91a4871",
-        "name": "Humo",
-        "balance": 308686
-      },
-      "category": "car",
-      "sum": "3000"
-    },
-    {
-      "id": "1050e1cf-cf70-406f-9d41-79f492196117",
-      "user_id": 1,
-      "date": "2023-5-22-13:34",
-      "name": {
-        "id": "8ec27fb5-6a4b-4c40-a3aa-a8a83a3988e9",
-        "name": "TINKOFF",
-        "balance": "100"
-      },
-      "category": "car",
-      "sum": "10"
-    },
-    {
-      "id": "77c1b330-ad73-47ea-bc98-25a87a486ec6",
-      "user_id": 1,
-      "date": "2023-5-22-13:34",
-      "name": {
-        "id": "8ec27fb5-6a4b-4c40-a3aa-a8a83a3988e9",
-        "name": "TINKOFF",
-        "balance": 90
-      },
-      "category": "car",
-      "sum": "10"
+      "category": "da",
+      "sum": "12"
     }
   ]
 }

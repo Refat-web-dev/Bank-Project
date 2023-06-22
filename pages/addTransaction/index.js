@@ -15,8 +15,10 @@ let cardList = addTransaction.querySelector("select")
 // }
 function getDate() {
     let d = new Date()
-    return d.getFullYear() + "-" + d.getMonth() + "-" + d.getDate() + "-" + d.getHours() + ":" + d.getMinutes()
+    return d.getFullYear() + "-" + d.getMonth() + "-" + d.getDate() 
+    // + "-" + d.getHours() + ":" + d.getMinutes()
 }
+
 getData("/cards?user_id=" + user.id)
     .then(res => {
         if (res.status === 200 || res.status === 201) {
