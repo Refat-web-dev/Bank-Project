@@ -26,23 +26,23 @@ getData("/cards/" + card_id)
 
         personalCard(res.data)
 
-            axios.get(`https://api.apilayer.com/fixer/convert?to=UZS&from=${valuta}&amount=` + balance, {
-                headers: {
-                    apiKey: import.meta.env.VITE_API_KEY
+        axios.get(`https://api.apilayer.com/fixer/convert?to=UZS&from=${valuta}&amount=` + balance, {
+            headers: {
+                apiKey: import.meta.env.VITE_API_KEY
+            }
+        })
+            .then(res => {
+                convert.onclick = () => {
+                    if (!b.innerHTML.includes("UZS")) {
+
+                        convert.innerHTML = "Convert to " + valuta
+                        b.innerHTML = res.data.result.toLocaleString("uz-UZ") + " UZS"
+                    } else {
+                        convert.innerHTML = "Convert to UZS"
+                        b.innerHTML = balance + ' ' + valuta
+                    }
                 }
             })
-                .then(res => {
-                    convert.onclick = () => {
-                        if (!b.innerHTML.includes("UZS")) {
-
-                            convert.innerHTML = "Convert to " + valuta
-                            b.innerHTML = res.data.result + " UZS"
-                        } else {
-                            convert.innerHTML = "Convert to UZS"
-                            b.innerHTML = balance + ' ' + valuta
-                        }
-                    }
-                })
 
     })
 

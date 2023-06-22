@@ -66,7 +66,7 @@ addTransaction.onsubmit = (e) => {
                 postData("/transactions", transaction)
                     .then(res => {
                         if (res.status === 200 || res.status === 201) {
-                            patchData("/cards/" + transaction.name.id, { balance: balance - transaction.sum })
+                            patchData("/cards/" + transaction.name.id, { balance: balance = balance - transaction.sum })
                                 .then(res => {
                                     if (res.status === 200 || res.status === 201) {
                                         location.assign("/pages/myTransaction/")
