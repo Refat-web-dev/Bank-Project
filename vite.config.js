@@ -18,7 +18,6 @@ export default defineConfig({
                 myWallet: resolve(__dirname, 'pages/myWallet/index.html'),
                 card: resolve(__dirname, 'pages/myWallet/card/index.html'),
                 myTransaction: resolve(__dirname, 'pages/myTransaction/index.html'),
-                transactions: resolve(__dirname, 'pages/transactions/index.html'),
             },
         },
     },

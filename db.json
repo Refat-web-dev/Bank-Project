@@ -6,6 +6,13 @@
       "email": "refabatya@gmail.com",
       "pass": "3214rt",
       "id": 1
+    },
+    {
+      "name": "Андрей",
+      "surname": "vdsfv",
+      "email": "f@yjdrwti.com",
+      "pass": "hf5eufwjvh",
+      "id": 2
     }
   ],
   "cards": [
@@ -43,6 +50,20 @@
       "name": "TINKOFF",
       "balance": 80,
       "valuta": "RUB"
+    },
+    {
+      "id": "487a97cb-e0f7-45bc-bf6c-d27b1edc4202",
+      "user_id": 1,
+      "name": "ксюня",
+      "balance": 12432311234,
+      "valuta": "EUR"
+    },
+    {
+      "id": "090cb978-daba-4bdd-b67c-ac83add2d222",
+      "user_id": 2,
+      "name": "Visa",
+      "balance": 6430349,
+      "valuta": "BHD"
     }
   ],
   "transactions": [
@@ -57,6 +78,30 @@
       },
       "category": "da",
       "sum": "12"
+    },
+    {
+      "id": "011bf37a-f592-4446-b3ec-c04d89757ee5",
+      "user_id": 1,
+      "date": "2023-5-23",
+      "name": {
+        "id": "487a97cb-e0f7-45bc-bf6c-d27b1edc4202",
+        "name": "ксюня",
+        "balance": "12432341234"
+      },
+      "category": "Home",
+      "sum": "30000"
+    },
+    {
+      "id": "b550a5a9-a80a-43d8-a442-1636dc997857",
+      "user_id": 2,
+      "date": "2023-5-28",
+      "name": {
+        "id": "090cb978-daba-4bdd-b67c-ac83add2d222",
+        "name": "Visa",
+        "balance": "6435783"
+      },
+      "category": "car",
+      "sum": "5434"
     }
   ]
 }
